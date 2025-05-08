@@ -1,5 +1,5 @@
 import re
-.......
+......
 # Compile regex patterns
 p1 = re.compile(r'\w+@\w+\.(com|org|net|edu)')  #pattern for email addresses
 
