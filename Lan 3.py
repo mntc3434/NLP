@@ -3,4 +3,4 @@ text = """There are multiple ways we can perform tokenization on given text data
 # Split text by whitespace
 tokens = text.split()
 print(tokens)
-....
+..
