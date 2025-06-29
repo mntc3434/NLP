@@ -1,4 +1,4 @@
-..import re
+.import re
 #re.split
 text = "This... is a test, short and sweet, of split()."
 result = re.split(r'\W+', text)  # Split on one or more non-word characters
