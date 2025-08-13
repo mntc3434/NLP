@@ -1,7 +1,7 @@
 import re
 # Compile regex patterns
 p1 = re.compile(r'\w+@\w+\.(com|org|net|edu)')  #pattern for email addresses
-..
+.
 # Match example
 email_match = p1.match("steve@apple.com")
 if email_match:
