@@ -1,7 +1,7 @@
 import re
 # Compile regex patterns
 p1 = re.compile(r'\w+@\w+\.(com|org|net|edu)')  #pattern for email addresses
-....
+...
 # Match example
 email_match = p1.match("steve@apple.com")
 if email_match:
@@ -22,6 +22,7 @@ print(email_findall)  # Output: ['steve@apple.com', 'bill@msft.com']
 p2 =re.compile("[.?!]+\s+")
 split_result = p2.split("Tired? Go to bed! Now!! ")
 print(split_result)  # Output: ['Tired?', 'Go', 'to', 'bed!', 'Now!!', '']
+
 
 
 
